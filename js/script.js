@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         else navbar.classList.remove('scrolled');
     });
 
-    // Scroll Animations (YAHI CODE CONTENT KO VISIBLE KARTA HAI)
+    
     const observerOptions = { root: null, rootMargin: '0px', threshold: 0.15 };
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
